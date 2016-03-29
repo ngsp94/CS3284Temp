@@ -2,14 +2,14 @@
 
 using UnrealBuildTool;
 
-public class StreamingPlugin : ModuleRules
+public class CloudyStream : ModuleRules
 {
-    public StreamingPlugin(TargetInfo Target)
+    public CloudyStream(TargetInfo Target)
     {
 
         PublicIncludePaths.AddRange(
             new string[] {
-				"StreamingPlugin/Public"
+				"CloudyStream/Public"
 				
 				// ... add public include paths required here ...
 			}
@@ -18,7 +18,7 @@ public class StreamingPlugin : ModuleRules
 
         PrivateIncludePaths.AddRange(
             new string[] {
-				"StreamingPlugin/Private",
+				"CloudyStream/Private",
 				
 				// ... add other private include paths required here ...
 			}
